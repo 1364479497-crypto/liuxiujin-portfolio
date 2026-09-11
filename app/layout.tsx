@@ -10,13 +10,15 @@ const kanit = Kanit({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://liuxiujin.com"),
-  title: "XIUJIN — AI × 教育 × 3D 互动创作者",
-  description: "秀金的个人作品集：AI 产品原型、互动学习体验、3D 可视化与创意自动化。",
+  title: "XIUJIN｜AI 产品传播、产品交互与 AI 内容生产",
+  description:
+    "XIUJIN 的个人网站。记录在猿力科技、飞象星球的工作经历，展示 AI 产品传播、教育内容、产品交互与 AI 图文视频工作流相关项目，以及持续进行的个人创作实验。",
   openGraph: {
     type: "website",
     locale: "zh_CN",
-    title: "XIUJIN — AI × 教育 × 3D 互动创作者",
-    description: "秀金的个人作品集：AI 产品原型、互动学习体验、3D 可视化与创意自动化。",
+    title: "XIUJIN｜AI 产品传播、产品交互与 AI 内容生产",
+    description:
+      "记录 AI 产品传播、教育内容、产品交互与 AI 图文视频工作流相关项目，以及持续进行的个人创作实验。",
     images: [
       {
         url: "/og.png",
@@ -28,8 +30,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "XIUJIN — AI × 教育 × 3D 互动创作者",
-    description: "AI 产品原型、互动学习体验、3D 可视化与创意自动化。",
+    title: "XIUJIN｜AI 产品传播、产品交互与 AI 内容生产",
+    description: "AI 产品传播、教育内容、产品交互与 AI 内容生产相关项目。",
     images: ["/og.png"],
   },
 };
